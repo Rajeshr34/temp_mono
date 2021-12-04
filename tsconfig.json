@@ -1,0 +1,5 @@
+{
+    "extends": "@pain-org/rollup/config/tsconfig.base.json",
+    "compilerOptions": {},
+    "include": ["./src/index.ts"]
+}

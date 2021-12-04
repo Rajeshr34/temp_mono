@@ -1,0 +1,1 @@
+{ "packages": ["@google/*"], "version": "independent", "useWorkspaces": true, "npmClient": "yarn" }

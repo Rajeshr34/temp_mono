@@ -1,0 +1,47 @@
+{
+    "name": "workspace",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "prepare": "husky install",
+        "commit": "cz",
+        "postinstall": "lerna bootstrap"
+    },
+    "keywords": [],
+    "author": "Rajesh",
+    "license": "ISC",
+    "devDependencies": {
+        "@commitlint/cli": "^15.0.0",
+        "@pain-org/eslint-config": "^1.0.10",
+        "@typescript-eslint/eslint-plugin": "^5.5.0",
+        "@typescript-eslint/parser": "^5.5.0",
+        "commitizen": "^4.2.4",
+        "commitlint-config-gitmoji": "^2.2.5",
+        "cz-customizable": "^6.3.0",
+        "eslint": "^8.4.0",
+        "eslint-config-prettier": "^8.3.0",
+        "eslint-plugin-prettier": "^4.0.0",
+        "eslint-scope": "^7.1.0",
+        "husky": "^7.0.4",
+        "lerna": "^4.0.0",
+        "lint-staged": "^12.1.2",
+        "prettier": "2.5.0",
+        "typescript": "^4.5.2"
+    },
+    "lint-staged": {
+        "*.{tsx,ts,js,css,md,json}": [
+            "prettier --write"
+        ]
+    },
+    "config": {
+        "commitizen": {
+            "path": "cz-customizable"
+        }
+    },
+    "workspaces": [
+        "@google/*"
+    ],
+    "private": true
+}

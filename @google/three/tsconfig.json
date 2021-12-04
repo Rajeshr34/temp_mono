@@ -1,0 +1,1 @@
+{ "extends": "../../tsconfig.json", "compilerOptions": {}, "include": ["./src/index.ts"] }
