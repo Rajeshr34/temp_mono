@@ -43,5 +43,8 @@
     "workspaces": [
         "@google/*"
     ],
-    "private": true
+    "private": true,
+    "dependencies": {
+        "standard-version": "^9.3.2"
+    }
 }
