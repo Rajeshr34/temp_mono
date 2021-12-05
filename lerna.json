@@ -4,29 +4,5 @@
     "useWorkspaces": true,
     "npmClient": "yarn",
     "command": { "version": { "message": "🚀 chore(release): publish %s" } },
-    "changelogPreset": {
-        "name": "conventionalcommits",
-        "types": [
-            { "type": ":sparkles: feat", "section": "✨ feat:\tAdding a new feature" },
-            { "type": ":bug: fix", "section": "🐛 fix:\tFixing a bug" },
-            { "type": ":memo: docs", "section": "📝 docs:\tAdd or update documentation" },
-            { "type": ":lipstick: style", "section": "💄 style:\tAdd or update styles, ui or ux" },
-            {
-                "type": ":recycle: refactor",
-                "section": "♻️  refactor:\tCode change that neither fixes a bug nor adds a feature"
-            },
-            { "type": ":zap: perf", "section": "⚡️ perf:\tCode change that improves performance" },
-            { "type": ":white_check_mark: test", "section": "✅ test:\tAdding tests cases" },
-            {
-                "type": ":truck: chore",
-                "section": "🚚 chore:\tChanges to the build process or auxiliary tools\n\t\tand libraries such as documentation generation"
-            },
-            { "type": ":rewind: revert", "section": "⏪️ revert:\tRevert to a commit" },
-            { "type": ":construction: wip", "section": "🚧 wip:\tWork in progress" },
-            { "type": ":construction_worker: build", "section": "👷 build:\tAdd or update regards to build process" },
-            { "type": ":green_heart: ci", "section": "💚 ci:\tAdd or update regards to build process" }
-        ],
-        "commitUrlFormat": "{{host}}/{{owner}}/{{repository}}/commit/{{hash}}"
-    }
+    "changelogPreset": "./changelog-preset.config.js"
 }
-
