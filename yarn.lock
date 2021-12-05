@@ -347,7 +347,7 @@
     is-ci "^2.0.0"
     npmlog "^4.1.2"
 
-"@lerna/conventional-commits@4.0.0":
+"@lerna/conventional-commits@4.0.0", "@lerna/conventional-commits@^4.0.0":
   version "4.0.0"
   resolved "https://registry.yarnpkg.com/@lerna/conventional-commits/-/conventional-commits-4.0.0.tgz#660fb2c7b718cb942ead70110df61f18c6f99750"
   integrity sha512-CSUQRjJHFrH8eBn7+wegZLV3OrNc0Y1FehYfYGhjLE2SIfpCL4bmfu/ViYuHh9YjwHaA+4SX6d3hR+xkeseKmw==
