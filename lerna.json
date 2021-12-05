@@ -7,5 +7,19 @@
         "version": {
             "message": "🚀 chore(release): publish %s"
         }
+    },
+    "changelogPreset": {
+        "name": "conventionalcommits",
+        "types": [
+            { "type": "feat", "section": ":sparkles: Features" },
+            { "type": "fix", "section": ":bug: Bug Fixes" },
+            { "type": "refactor", "section": ":recycle: Refactor" },
+            { "type": "style", "section": ":lipstick: Style" },
+            { "type": "chore", "section": "chore" },
+            { "type": "docs", "hidden": ":memo: Docs" },
+            { "type": "refactor", "hidden": true },
+            { "type": "test", "hidden": true }
+        ],
+        "commitUrlFormat": "{{host}}/{{owner}}/{{repository}}/commit/{{hash}}"
     }
 }
