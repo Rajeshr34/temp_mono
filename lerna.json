@@ -1,1 +1,11 @@
-{ "packages": ["@google/*"], "version": "independent", "useWorkspaces": true, "npmClient": "yarn" }
+{
+    "packages": ["@google/*"],
+    "version": "independent",
+    "useWorkspaces": true,
+    "npmClient": "yarn",
+    "command": {
+        "version": {
+            "message": "🚀 chore(release): publish %s"
+        }
+    }
+}
