@@ -8,7 +8,7 @@
             "conventionalCommits": true,
             "changelogPreset": "emojis",
             "exact": true,
-            "message": "🔖 %s"
+            "message": "🚀 chore(release): publish %s"
         }
     }
 }
