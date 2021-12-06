@@ -3,6 +3,12 @@
     "version": "independent",
     "useWorkspaces": true,
     "npmClient": "yarn",
-    "command": { "version": { "message": "🚀 chore(release): publish %s" } },
-    "changelogPreset": "./changelog-preset.config.js"
+    "command": {
+        "version": {
+            "conventionalCommits": true,
+            "changelogPreset": "emojis",
+            "exact": true,
+            "message": "🔖 %s"
+        }
+    }
 }
