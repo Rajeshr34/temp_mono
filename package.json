@@ -47,6 +47,7 @@
     "private": true,
     "dependencies": {
         "@lerna/conventional-commits": "^4.0.0",
+        "conventional-changelog-emojis": "^3.1.0",
         "standard-version": "^9.3.2"
     }
 }
