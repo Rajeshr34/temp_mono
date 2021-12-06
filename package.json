@@ -8,7 +8,7 @@
         "prepare": "husky install",
         "commit": "cz",
         "postinstall": "lerna bootstrap",
-        "versionx": "lerna version --conventional-commits"
+        "versionx": "lerna version --conventional-commits --changelog-preset emojis"
     },
     "keywords": [],
     "author": "Rajesh",
