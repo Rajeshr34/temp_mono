@@ -3,6 +3,15 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.8](https://github.com/Rajeshr34/temp_mono/compare/@google/one@1.0.6...@google/one@1.0.8) (2021-12-06)
+
+### Miscellaneous
+
+-   :sparkles: feat(one): new Change ([bcfe9af](https://github.com/Rajeshr34/temp_mono/commit/bcfe9af8201f6b904eba3219ba6f2617929a24d1))
+-   :sparkles: feat(one): package json fix ([e70361f](https://github.com/Rajeshr34/temp_mono/commit/e70361f31ffce9ede7e2a776122e907a0ff87904))
+
+**Note:** Version bump only for package @google/one
+
 ## [1.0.7](https://github.com/Rajeshr34/temp_mono/compare/@google/one@1.0.6...@google/one@1.0.7) (2021-12-06)
 
 ### Miscellaneous
